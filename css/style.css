@@ -87,7 +87,7 @@ header h1{
 
 
 .section1{
-    background: url(/images/cabecera.jpg) 0 -400px;
+    background: url(../images/cabecera.jpg) 0 -400px;
     background-size: cover;
     height: 450px;
     display: flex;
@@ -263,7 +263,7 @@ footer p {
     justify-content: center;
     ALIGN-ITEMS: center;
     height: 100PX;
-    MARGIN-TOP: 0%;
+    MARGIN-TOP: 1%;
     color: white;
 }
 
@@ -308,9 +308,9 @@ footer p {
 
 .cajano2{
     margin: 1%;
-    background-image: url(/images/891.jpg);
+    background-image: url(../images/891.jpg);
     background-size: cover;
-    height: 170px;
+    height: 150px;
 }
 
 .cajaquehacemos{
@@ -356,6 +356,7 @@ footer p {
     margin-right: 5%;
     width: 150%;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .cajaServi2{
@@ -449,4 +450,16 @@ footer p {
     color: white;
     background-color: rgb(232, 73, 29);
     height: 40px;
+}
+.cajamapa{
+    background-image: url(../images/mapaGoogle.png);
+    background-size: cover;
+    height: 215px;
+    width: 77.5%;
+    margin-top: 14px;
+}
+
+
+@media (max-width: 600px) {
+
 }
